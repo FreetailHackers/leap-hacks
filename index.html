@@ -131,10 +131,12 @@
                 console.log(content);
                 if (content.style.maxHeight){
                 content.style.maxHeight = null;
-                content.style.padding = "0px";
+                content.style.paddingTop = "0px";
+                content.style.paddingBottom = "0px";
                 } else {
                 content.style.maxHeight = (content.scrollHeight + 20) + "px";
-                content.style.padding = "10px 0px";
+                content.style.paddingTop = "10px";
+                content.style.paddingBottom = "10px";
                 } 
             });
             }

@@ -196,6 +196,7 @@ strong {
     text-align: right;
     margin-right: 20px;
     height: 100%;
+    margin-left: 15px;
 }
 
 .right-half {
@@ -204,11 +205,13 @@ strong {
     text-align: left;
     margin-left: 20px;
     height: 100%;
+    margin-right: 15px;
 }
 
 hr {
     width: 100%;
     border: none;
+    margin: 0px;
   }
 
 ul {
