@@ -393,35 +393,6 @@ ul {
     flex-direction: column;
 }
 
-.transportation-schedule {
-    width: 90%;
-}
-
-.right-align-center {
-    text-align: right;
-    margin-right: 0px;
-}
-
-.left-align-center {
-    text-align: left;
-    margin-left: 0px;
-}
-
-.blue-bold-smallest {
-    font-size: 20px;
-}
-
-.margin-small {
-    margin: 0px;
-    margin-top: 10px;
-}
-
-.with-border {
-    border-right: 3px solid #3D5274;
-    margin-right: 0px;
-    padding-right: 20px;
-}
-
 .transportation-information {
     margin: 0 10%;
     margin-bottom: 20px;
@@ -441,39 +412,6 @@ ul {
 
 .bus-right {
     margin-right: 10%;
-}
-
-.table-transportation {
-    margin: 0 10%;
-    max-width: 1000px;
-}
-
-.left-cell {
-    text-align: right;
-    padding-right: 20px;
-    border-right: 3px solid #3D5274;
-}
-
-.right-cell {
-    padding-left: 20px;
-}
-
-td {
-    padding-bottom: 10px;
-}
-
-.time-col {
-    width: 130px;
-    min-width: 50px;
-}
-
-.small-margin {
-    margin: 5px;
-}
-
-.medium-margin {
-    margin-top: 5px;
-    margin-bottom: 20px;
 }
 
 td {
@@ -503,10 +441,6 @@ td {
 
     .blue-bold-small {
         font-size: 16px;
-    }
-
-    .blue-bold-smallest {
-        font-size: 14px;
     }
 
     strong {
