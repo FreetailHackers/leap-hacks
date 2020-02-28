@@ -271,6 +271,10 @@ body {
     width: 15%;
 }
 
+.heading-bigger {
+    width: 30%;
+}
+
 .blue-light {
     color: #3D5274;
     font-family: urbane, sans-serif;
@@ -278,6 +282,8 @@ body {
     font-weight: 200;
     font-size: 24px;
 }
+
+
 
 strong {
     font-weight: 200;
@@ -334,6 +340,14 @@ ul {
     font-size: 20px;
 }
 
+.blue-light-medium {
+    font-size: 22px;
+}
+
+.blue-bold-medium {
+    font-size: 28px;
+}
+
 .header-margin {
     margin-top: 50px;
 }
@@ -357,6 +371,7 @@ ul {
 
 .float-right {
     float: right;
+    text-align: right;
 }
 
 .answer-text {
@@ -373,9 +388,108 @@ ul {
 
 #mobile-faqs {
     padding: 0 20px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
 }
 
+.transportation-schedule {
+    width: 90%;
+}
 
+.right-align-center {
+    text-align: right;
+    margin-right: 0px;
+}
+
+.left-align-center {
+    text-align: left;
+    margin-left: 0px;
+}
+
+.blue-bold-smallest {
+    font-size: 20px;
+}
+
+.margin-small {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.with-border {
+    border-right: 3px solid #3D5274;
+    margin-right: 0px;
+    padding-right: 20px;
+}
+
+.transportation-information {
+    margin: 0 10%;
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.bus-route-paragraph {
+    max-width: 350px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.bus-left {
+    margin-left: 10%;
+}
+
+.bus-right {
+    margin-right: 10%;
+}
+
+.table-transportation {
+    margin: 0 10%;
+    max-width: 1000px;
+}
+
+.left-cell {
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid #3D5274;
+}
+
+.right-cell {
+    padding-left: 20px;
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+.time-col {
+    width: 130px;
+    min-width: 50px;
+}
+
+.small-margin {
+    margin: 5px;
+}
+
+.medium-margin {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+td {
+    vertical-align: top;
+    padding: 0px;
+}
+
+.border-blue {
+    margin-right: 0px;
+    padding-right: 20px;
+    border-right: 3px solid #3D5274;
+}
+
+.right-half > button {
+    text-align: left;
+}
 
 @media only screen and (max-width: 600px) {
     
@@ -389,6 +503,10 @@ ul {
 
     .blue-bold-small {
         font-size: 16px;
+    }
+
+    .blue-bold-smallest {
+        font-size: 14px;
     }
 
     strong {
@@ -447,6 +565,10 @@ ul {
         width: 20%;
     }
 
+    .heading-bigger {
+        width: 50%;
+    }
+
     #apply-button {
         width: 70%;
     }
@@ -460,7 +582,7 @@ ul {
         margin: 0px;
     }
 
-    .no-align {
+    .desktop-only {
         display: none;
     }
 
@@ -472,12 +594,28 @@ ul {
         background-size: 40vh;
     }
 
-    .left-half {
-        width: 30%;
-    }
-
     #desktop-background {
         display: none;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    #mobile-faqs {
+        display: flex;
+    }
+
+    .blue-bold-small {
+        font-size: 16px;
+    }
+
+    .blue-bold-medium {
+        font-size: 14px;
+    }
+    
+    .blue-light-medium {
+        font-size: 14px;
     }
 }
 
